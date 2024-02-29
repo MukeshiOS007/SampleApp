@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38A9BC0E2B8E3B4D0020179F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9BC0D2B8E3B4D0020179F /* AppDelegate.swift */; };
+		38A9BC122B8E3B4D0020179F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9BC112B8E3B4D0020179F /* ViewController.swift */; };
+		38A9BC182B8E3B4D0020179F /* CricketApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38A9BC162B8E3B4D0020179F /* CricketApp.xcdatamodeld */; };
+		38A9BC1A2B8E3B500020179F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38A9BC192B8E3B500020179F /* Assets.xcassets */; };
+		38A9BC1D2B8E3B500020179F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38A9BC1B2B8E3B500020179F /* LaunchScreen.storyboard */; };
+		38A9BC282B8E3B510020179F /* CricketAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9BC272B8E3B510020179F /* CricketAppTests.swift */; };
+		38A9BC322B8E3B510020179F /* CricketAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9BC312B8E3B510020179F /* CricketAppUITests.swift */; };
+		38A9BC342B8E3B510020179F /* CricketAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9BC332B8E3B510020179F /* CricketAppUITestsLaunchTests.swift */; };
+		38A9BC412B8E3DBF0020179F /* cricketData.json in Resources */ = {isa = PBXBuildFile; fileRef = 38A9BC402B8E3DBF0020179F /* cricketData.json */; };
+		38A9BC432B8E40400020179F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9BC422B8E40400020179F /* CollectionViewCell.swift */; };
+		38A9BC452B8E412E0020179F /* teamListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9BC442B8E412E0020179F /* teamListController.swift */; };
+		38A9BC472B8E4E910020179F /* cricketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9BC462B8E4E910020179F /* cricketModel.swift */; };
+		38A9BC492B8E5BF40020179F /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9BC482B8E5BF40020179F /* PlayerViewController.swift */; };
+		38A9BC4B2B8E5E9D0020179F /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9BC4A2B8E5E9D0020179F /* HeaderView.swift */; };
+		38A9BC4D2B8E61560020179F /* PlayerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9BC4C2B8E61560020179F /* PlayerCell.swift */; };
+		38A9BC4F2B8E62080020179F /* PlayerDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38A9BC4E2B8E62080020179F /* PlayerDetailController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38A9BC242B8E3B510020179F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38A9BC022B8E3B4D0020179F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38A9BC092B8E3B4D0020179F;
+			remoteInfo = CricketApp;
+		};
+		38A9BC2E2B8E3B510020179F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38A9BC022B8E3B4D0020179F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38A9BC092B8E3B4D0020179F;
+			remoteInfo = CricketApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		38A9BC0A2B8E3B4D0020179F /* CricketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CricketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A9BC0D2B8E3B4D0020179F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		38A9BC112B8E3B4D0020179F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		38A9BC172B8E3B4D0020179F /* CricketApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CricketApp.xcdatamodel; sourceTree = "<group>"; };
+		38A9BC192B8E3B500020179F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38A9BC1C2B8E3B500020179F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		38A9BC1E2B8E3B500020179F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38A9BC232B8E3B510020179F /* CricketAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricketAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A9BC272B8E3B510020179F /* CricketAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricketAppTests.swift; sourceTree = "<group>"; };
+		38A9BC2D2B8E3B510020179F /* CricketAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CricketAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38A9BC312B8E3B510020179F /* CricketAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricketAppUITests.swift; sourceTree = "<group>"; };
+		38A9BC332B8E3B510020179F /* CricketAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CricketAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38A9BC402B8E3DBF0020179F /* cricketData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cricketData.json; sourceTree = "<group>"; };
+		38A9BC422B8E40400020179F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		38A9BC442B8E412E0020179F /* teamListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teamListController.swift; sourceTree = "<group>"; };
+		38A9BC462B8E4E910020179F /* cricketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cricketModel.swift; sourceTree = "<group>"; };
+		38A9BC482B8E5BF40020179F /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		38A9BC4A2B8E5E9D0020179F /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		38A9BC4C2B8E61560020179F /* PlayerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCell.swift; sourceTree = "<group>"; };
+		38A9BC4E2B8E62080020179F /* PlayerDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38A9BC072B8E3B4D0020179F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A9BC202B8E3B510020179F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A9BC2A2B8E3B510020179F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38A9BC012B8E3B4D0020179F = {
+			isa = PBXGroup;
+			children = (
+				38A9BC0C2B8E3B4D0020179F /* CricketApp */,
+				38A9BC262B8E3B510020179F /* CricketAppTests */,
+				38A9BC302B8E3B510020179F /* CricketAppUITests */,
+				38A9BC0B2B8E3B4D0020179F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38A9BC0B2B8E3B4D0020179F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38A9BC0A2B8E3B4D0020179F /* CricketApp.app */,
+				38A9BC232B8E3B510020179F /* CricketAppTests.xctest */,
+				38A9BC2D2B8E3B510020179F /* CricketAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38A9BC0C2B8E3B4D0020179F /* CricketApp */ = {
+			isa = PBXGroup;
+			children = (
+				38A9BC502B9055580020179F /* json */,
+				38A9BC522B90557A0020179F /* ScoreCardScreen */,
+				38A9BC512B90556A0020179F /* MatchScreen */,
+				38A9BC0D2B8E3B4D0020179F /* AppDelegate.swift */,
+				38A9BC192B8E3B500020179F /* Assets.xcassets */,
+				38A9BC1B2B8E3B500020179F /* LaunchScreen.storyboard */,
+				38A9BC1E2B8E3B500020179F /* Info.plist */,
+				38A9BC162B8E3B4D0020179F /* CricketApp.xcdatamodeld */,
+			);
+			path = CricketApp;
+			sourceTree = "<group>";
+		};
+		38A9BC262B8E3B510020179F /* CricketAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				38A9BC272B8E3B510020179F /* CricketAppTests.swift */,
+			);
+			path = CricketAppTests;
+			sourceTree = "<group>";
+		};
+		38A9BC302B8E3B510020179F /* CricketAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				38A9BC312B8E3B510020179F /* CricketAppUITests.swift */,
+				38A9BC332B8E3B510020179F /* CricketAppUITestsLaunchTests.swift */,
+			);
+			path = CricketAppUITests;
+			sourceTree = "<group>";
+		};
+		38A9BC502B9055580020179F /* json */ = {
+			isa = PBXGroup;
+			children = (
+				38A9BC402B8E3DBF0020179F /* cricketData.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+		38A9BC512B90556A0020179F /* MatchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				38A9BC582B90561F0020179F /* Controller */,
+				38A9BC562B9055E20020179F /* View */,
+			);
+			path = MatchScreen;
+			sourceTree = "<group>";
+		};
+		38A9BC522B90557A0020179F /* ScoreCardScreen */ = {
+			isa = PBXGroup;
+			children = (
+				38A9BC552B9055B80020179F /* Controller */,
+				38A9BC542B9055AA0020179F /* View */,
+				38A9BC532B9055970020179F /* Model */,
+			);
+			path = ScoreCardScreen;
+			sourceTree = "<group>";
+		};
+		38A9BC532B9055970020179F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				38A9BC462B8E4E910020179F /* cricketModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38A9BC542B9055AA0020179F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38A9BC482B8E5BF40020179F /* PlayerViewController.swift */,
+				38A9BC4C2B8E61560020179F /* PlayerCell.swift */,
+				38A9BC4A2B8E5E9D0020179F /* HeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38A9BC552B9055B80020179F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				38A9BC4E2B8E62080020179F /* PlayerDetailController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		38A9BC562B9055E20020179F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38A9BC112B8E3B4D0020179F /* ViewController.swift */,
+				38A9BC422B8E40400020179F /* CollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		38A9BC582B90561F0020179F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				38A9BC442B8E412E0020179F /* teamListController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38A9BC092B8E3B4D0020179F /* CricketApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A9BC372B8E3B510020179F /* Build configuration list for PBXNativeTarget "CricketApp" */;
+			buildPhases = (
+				38A9BC062B8E3B4D0020179F /* Sources */,
+				38A9BC072B8E3B4D0020179F /* Frameworks */,
+				38A9BC082B8E3B4D0020179F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CricketApp;
+			productName = CricketApp;
+			productReference = 38A9BC0A2B8E3B4D0020179F /* CricketApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38A9BC222B8E3B510020179F /* CricketAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A9BC3A2B8E3B510020179F /* Build configuration list for PBXNativeTarget "CricketAppTests" */;
+			buildPhases = (
+				38A9BC1F2B8E3B510020179F /* Sources */,
+				38A9BC202B8E3B510020179F /* Frameworks */,
+				38A9BC212B8E3B510020179F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38A9BC252B8E3B510020179F /* PBXTargetDependency */,
+			);
+			name = CricketAppTests;
+			productName = CricketAppTests;
+			productReference = 38A9BC232B8E3B510020179F /* CricketAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		38A9BC2C2B8E3B510020179F /* CricketAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38A9BC3D2B8E3B510020179F /* Build configuration list for PBXNativeTarget "CricketAppUITests" */;
+			buildPhases = (
+				38A9BC292B8E3B510020179F /* Sources */,
+				38A9BC2A2B8E3B510020179F /* Frameworks */,
+				38A9BC2B2B8E3B510020179F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38A9BC2F2B8E3B510020179F /* PBXTargetDependency */,
+			);
+			name = CricketAppUITests;
+			productName = CricketAppUITests;
+			productReference = 38A9BC2D2B8E3B510020179F /* CricketAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38A9BC022B8E3B4D0020179F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					38A9BC092B8E3B4D0020179F = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					38A9BC222B8E3B510020179F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 38A9BC092B8E3B4D0020179F;
+					};
+					38A9BC2C2B8E3B510020179F = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 38A9BC092B8E3B4D0020179F;
+					};
+				};
+			};
+			buildConfigurationList = 38A9BC052B8E3B4D0020179F /* Build configuration list for PBXProject "CricketApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38A9BC012B8E3B4D0020179F;
+			productRefGroup = 38A9BC0B2B8E3B4D0020179F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38A9BC092B8E3B4D0020179F /* CricketApp */,
+				38A9BC222B8E3B510020179F /* CricketAppTests */,
+				38A9BC2C2B8E3B510020179F /* CricketAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38A9BC082B8E3B4D0020179F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A9BC1D2B8E3B500020179F /* LaunchScreen.storyboard in Resources */,
+				38A9BC412B8E3DBF0020179F /* cricketData.json in Resources */,
+				38A9BC1A2B8E3B500020179F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A9BC212B8E3B510020179F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A9BC2B2B8E3B510020179F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38A9BC062B8E3B4D0020179F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A9BC122B8E3B4D0020179F /* ViewController.swift in Sources */,
+				38A9BC472B8E4E910020179F /* cricketModel.swift in Sources */,
+				38A9BC182B8E3B4D0020179F /* CricketApp.xcdatamodeld in Sources */,
+				38A9BC4D2B8E61560020179F /* PlayerCell.swift in Sources */,
+				38A9BC492B8E5BF40020179F /* PlayerViewController.swift in Sources */,
+				38A9BC432B8E40400020179F /* CollectionViewCell.swift in Sources */,
+				38A9BC452B8E412E0020179F /* teamListController.swift in Sources */,
+				38A9BC4F2B8E62080020179F /* PlayerDetailController.swift in Sources */,
+				38A9BC0E2B8E3B4D0020179F /* AppDelegate.swift in Sources */,
+				38A9BC4B2B8E5E9D0020179F /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A9BC1F2B8E3B510020179F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A9BC282B8E3B510020179F /* CricketAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38A9BC292B8E3B510020179F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38A9BC342B8E3B510020179F /* CricketAppUITestsLaunchTests.swift in Sources */,
+				38A9BC322B8E3B510020179F /* CricketAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38A9BC252B8E3B510020179F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38A9BC092B8E3B4D0020179F /* CricketApp */;
+			targetProxy = 38A9BC242B8E3B510020179F /* PBXContainerItemProxy */;
+		};
+		38A9BC2F2B8E3B510020179F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38A9BC092B8E3B4D0020179F /* CricketApp */;
+			targetProxy = 38A9BC2E2B8E3B510020179F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38A9BC1B2B8E3B500020179F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38A9BC1C2B8E3B500020179F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38A9BC352B8E3B510020179F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		38A9BC362B8E3B510020179F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38A9BC382B8E3B510020179F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CricketApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.CricketApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		38A9BC392B8E3B510020179F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CricketApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.CricketApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		38A9BC3B2B8E3B510020179F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.CricketAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CricketApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CricketApp";
+			};
+			name = Debug;
+		};
+		38A9BC3C2B8E3B510020179F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.CricketAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CricketApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CricketApp";
+			};
+			name = Release;
+		};
+		38A9BC3E2B8E3B510020179F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.CricketAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CricketApp;
+			};
+			name = Debug;
+		};
+		38A9BC3F2B8E3B510020179F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.CricketAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CricketApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38A9BC052B8E3B4D0020179F /* Build configuration list for PBXProject "CricketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A9BC352B8E3B510020179F /* Debug */,
+				38A9BC362B8E3B510020179F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38A9BC372B8E3B510020179F /* Build configuration list for PBXNativeTarget "CricketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A9BC382B8E3B510020179F /* Debug */,
+				38A9BC392B8E3B510020179F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38A9BC3A2B8E3B510020179F /* Build configuration list for PBXNativeTarget "CricketAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A9BC3B2B8E3B510020179F /* Debug */,
+				38A9BC3C2B8E3B510020179F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38A9BC3D2B8E3B510020179F /* Build configuration list for PBXNativeTarget "CricketAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38A9BC3E2B8E3B510020179F /* Debug */,
+				38A9BC3F2B8E3B510020179F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		38A9BC162B8E3B4D0020179F /* CricketApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				38A9BC172B8E3B4D0020179F /* CricketApp.xcdatamodel */,
+			);
+			currentVersion = 38A9BC172B8E3B4D0020179F /* CricketApp.xcdatamodel */;
+			path = CricketApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 38A9BC022B8E3B4D0020179F /* Project object */;
+}

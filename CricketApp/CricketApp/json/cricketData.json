@@ -1,0 +1,358 @@
+{
+  "matchDetails": {
+    "format": "T5",
+    "toss": "Team A",
+    "toss_decision": "Bat first",
+    "teams": [
+      {
+          "id": "101",
+          "fullname": "Chennai",
+          "name": "CSK",
+          "match": 12,
+          "date": "12/04/2024",
+          "time": "3:14 pm",
+          "stadium": "Mohali Stadium",
+          "opponent": "RCB",
+          "opponent_fullname": "Bangalore",
+        "players": [
+          {
+            "strike": 120.0,
+            "name": "Raina",
+            "runs": 20,
+            "balls": 15,
+            "fours": 3,
+            "sixes": 1,
+            "dismissal": {
+              "type": "Caught",
+              "fielder": "Fielder A",
+              "bowler": "Bowler A"
+            }
+          },
+          {
+            "strike": 109.0,
+            "name": "Maxwell",
+            "runs": 15,
+            "balls": 10,
+            "fours": 2,
+            "sixes": 0,
+            "dismissal": {
+              "type": "Run Out",
+              "fielder": "Fielder B",
+              "bowler": "Bowler B"
+            }
+          },
+          {
+            "strike": 134.0,
+            "name": "Steve smith",
+            "runs": 10,
+            "balls": 8,
+            "fours": 1,
+            "sixes": 0,
+            "dismissal": {
+              "type": "Bowled",
+              "fielder": null,
+              "bowler": "Bowler C"
+            }
+          }
+        ],
+        "bowlers": [
+          {
+            "strike": 1.24,
+            "maiden": 0,
+            "name": "Jorden",
+            "overs": 2,
+            "runsConceded": 18,
+            "wickets": 1
+          },
+          {
+            "strike": 4.80,
+            "maiden": 0,
+            "name": "Stein",
+            "overs": 1,
+            "runsConceded": 10,
+            "wickets": 0
+          },
+          {
+            "strike": 3.40,
+            "maiden": 0,
+            "name": "Brett Lee",
+            "overs": 2,
+            "runsConceded": 15,
+            "wickets": 1
+          }
+        ]
+      },
+      {
+          "id": "102",
+          "fullname": "Mumbai Indians",
+          "name": "MI",
+          "match": 13,
+          "date": "27/02/2024",
+          "time": "7:30 pm",
+          "stadium": "Wankhede Stadium",
+          "opponent": "KKR",
+          "opponent_fullname": "Kolkata",
+        "players": [
+          {
+            "strike": 119,
+            "name": "Joe Root",
+            "runs": 20,
+            "balls": 15,
+            "fours": 3,
+            "sixes": 1,
+            "dismissal": {
+              "type": "Caught",
+              "fielder": "Fielder A",
+              "bowler": "Bowler A"
+            }
+          },
+          {
+            "strike": 149,
+            "name": "Jayasurya",
+            "runs": 15,
+            "balls": 10,
+            "fours": 2,
+            "sixes": 0,
+            "dismissal": {
+              "type": "runout",
+              "fielder": "Fielder B",
+              "bowler": "Bowler B"
+            }
+          },
+          {
+            "strike": 140,
+            "name": "Shewag",
+            "runs": 10,
+            "balls": 8,
+            "fours": 1,
+            "sixes": 0,
+            "dismissal": {
+              "type": "Bowled",
+              "fielder": null,
+              "bowler": "Bowler C"
+            }
+          }
+        ],
+        "bowlers": [
+          {
+            "strike": 1.40,
+            "maiden": 0,
+            "name": "Courtney Walsh",
+            "overs": 2,
+            "runsConceded": 18,
+            "wickets": 1
+          },
+          {
+            "strike": 2.20,
+            "maiden": 0,
+            "name": "Glenn McGrath",
+            "overs": 1,
+            "runsConceded": 10,
+            "wickets": 0
+          },
+          {
+            "strike": 1.09,
+            "maiden": 0,
+            "name": "Curtly Ambrose",
+            "overs": 2,
+            "runsConceded": 15,
+            "wickets": 1
+          }
+        ]
+      },
+      {
+          "id": "103",
+          "fullname": "Punjab Kings",
+          "name": "PBKS",
+          "match": 13,
+          "date": "29/02/2024",
+          "time": "7:30 pm",
+          "stadium": "Chappak Stadium",
+          "opponent": "RR",
+          "opponent_fullname": "Rajasthan",
+        "players": [
+          {
+            "strike": 250,
+            "name": "Adam Gilchrist",
+            "runs": 25,
+            "balls": 14,
+            "fours": 4,
+            "sixes": 1,
+            "dismissal": {
+              "type": "Caught",
+              "fielder": "Fielder D",
+              "bowler": "Jorden"
+            }
+          },
+          {
+            "strike": 160,
+            "name": "James Anderson",
+            "runs": 18,
+            "balls": 12,
+            "fours": 2,
+            "sixes": 0,
+            "dismissal": {
+              "type": "LBW",
+              "fielder": null,
+              "bowler": "Stein"
+            }
+          },
+          {
+            "strike": 192,
+            "name": "Rahul Dravid",
+            "runs": 12,
+            "balls": 9,
+            "fours": 1,
+            "sixes": 0,
+            "dismissal": {
+              "type": "Stumped",
+              "fielder": "Fielder F",
+              "bowler": "Brett Lee"
+            }
+          }
+        ],
+        "bowlers": [
+          {
+            "strike": 1.58,
+            "maiden": 1,
+            "name": "Mathew Haiden",
+            "overs": 2,
+            "runsConceded": 22,
+            "wickets": 1
+          },
+          {
+            "strike": 3.19,
+            "maiden": 0,
+            "name": "Sydney Barnes",
+            "overs": 1,
+            "runsConceded": 12,
+            "wickets": 1
+          },
+          {
+            "strike": 2.16,
+            "maiden": 1,
+            "name": "Dennis Lillee",
+            "overs": 1,
+            "runsConceded": 10,
+            "wickets": 0
+          }
+        ]
+      }
+    ],
+    "fallOfWickets": [
+      {
+        "id": "101",
+        "team": "Team A",
+        "wickets": [
+          {
+            "player": "Raina",
+            "score": 20,
+            "overs": 3.1,
+            "dismissal": {
+              "type": "Caught",
+              "fielder": "Richard",
+              "bowler": "Brett Lee"
+            }
+          },
+          {
+            "player": "Maxwell",
+            "score": 35,
+            "overs": 4.2,
+            "dismissal": {
+              "type": "RunOut",
+              "fielder": "Kane Williamson",
+              "bowler": "Jordan"
+            }
+          },
+          {
+            "player": "Steve smith",
+            "score": 45,
+            "overs": 5,
+            "dismissal": {
+              "type": "Bowled",
+              "fielder": null,
+              "bowler": "Stein"
+            }
+          }
+        ]
+      },
+      {
+        "id": "102",
+        "team": "Team B",
+        "wickets": [
+          {
+            "player": "Joe Root",
+            "score": 25,
+            "overs": 3.5,
+            "dismissal": {
+              "type": "Caught",
+              "fielder": "Marsh",
+              "bowler": "Curtly Ambrose"
+            }
+          },
+          {
+            "player": "Jayasurya",
+            "score": 43,
+            "overs": 4.4,
+            "dismissal": {
+              "type": "LBW",
+              "fielder": null,
+              "bowler": "Courtney Walsh"
+            }
+          },
+          {
+            "player": "Sehwag",
+            "score": 55,
+            "overs": 5,
+            "dismissal": {
+              "type": "Stumped",
+              "fielder": "Fielder F",
+              "bowler": "Glenn McGrath"
+            }
+          }
+        ]
+      },
+      {
+        "id": "103",
+        "team": "Team B",
+        "wickets": [
+          {
+            "player": "Adam Gilchrist",
+            "score": 25,
+            "overs": 3.5,
+            "dismissal": {
+              "type": "Caught",
+              "fielder": "Yuvraj",
+              "bowler": "Dennis Lillee"
+            }
+          },
+          {
+            "player": "James Anderson",
+            "score": 43,
+            "overs": 4.4,
+            "dismissal": {
+              "type": "LBW",
+              "fielder": null,
+              "bowler": "Sydney Barnes"
+            }
+          },
+          {
+            "player": "Rahul Dravid",
+            "score": 55,
+            "overs": 5,
+            "dismissal": {
+              "type": "Stumped",
+              "fielder": "Ricky ponting",
+              "bowler": "Mathew Haiden"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+
+
+
